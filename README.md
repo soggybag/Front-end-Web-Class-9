@@ -71,11 +71,11 @@ Here it is in picture form:
 
 __Desktop__
 
-[Desktop](Notes/desktop.png)
+![Desktop](Notes/desktop.png)
 
 __Mobile__
 
-[Mobile](Notes/mobile.png)
+![Mobile](Notes/mobile.png)
 
 #### Points vs Pixels 
 
