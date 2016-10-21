@@ -7,6 +7,7 @@
 
 |   |   |   |   |
 |---|---|---|---|
+|   |   |   |   |
 
 ### 1 - @media
 
@@ -79,14 +80,38 @@ __Mobile__
 
 #### Points vs Pixels 
 
+Cell phones screens are made up of pixels the software that runs the display 
+calculate screen coordinates in points. Points are abstract units that relate 
+screens of different pixel densities. 
 
+For example, the iPhone 6 is 375 points wide, the screen is 750 pixels wide. 
+You should always think in point sizes.
 
+For more info on points and pixels see this guide:
+
+- https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
+
+### Common break points
+
+If you are starting out you can use the Boostrap CSS media queries as a starting point. 
+
+[bootstrap-media-queries.css](bootstrap-media-queries.css)
+
+This contains two sets of media queries one set marked "Mobile First". 
+The other marked "Desktop First". Mobile first assumes that all of the styles 
+__outside__ of the media queries style the mobile version, while all of the 
+styles in the media queries define style changes that make your site work 
+on other screen sizes, like desktop, or tablets. The desktop first rules 
+assume you styled the desktop first and will use the media queries to adjust 
+styles for mobile devices. 
 
 ## Resources 
 
+- https://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly
 - http://1stwebdesigner.com/responsive-design-breakpoints/
 - https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 - https://developers.google.com/web/fundamentals/design-and-ui/responsive/
+
 
 
 
