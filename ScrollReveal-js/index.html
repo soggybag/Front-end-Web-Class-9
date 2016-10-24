@@ -1,0 +1,37 @@
+<!doctype>
+<html>
+    <head>
+        <title></title>
+        <script src="scrollreveal.min.js"></script>
+        
+        <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+            }
+            div {
+                height: 100%;
+                font-size: 100px;
+                text-align: center;
+            } 
+            
+            .foo {
+                background-color: darkorange;
+            }
+            
+            .bar {
+                background-color: darkturquoise;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div>Hello</div>
+        <div class="foo"> Foo </div>
+        <div class="bar"> Bar </div>
+        
+        <script>
+            window.sr = ScrollReveal().reveal('.foo, .bar');
+        </script>
+    </body>
+</html>

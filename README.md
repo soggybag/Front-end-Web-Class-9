@@ -7,15 +7,26 @@
 
 ## Schedule 
 
-|    | time |   | Description                                |
-|----|------|---|--------------------------------------------|
-|  1 | 5 min| 5 | Design a repsonsive site with break points |
-|  2 | 5 min|10 | Demo responsive sites                      |
-|  3 | 5 min|15 | Strategies                                 |
+|    | time   |    |      | Description                                |
+|----|--------|----|------|--------------------------------------------|
+|  1 |  5 min |  5 | TT   | Design a repsonsive site with break points |
+|  2 |  5 min | 10 | TT   | Designing for multiple screen sizes Sketch |
+|  3 |  5 min | 15 | Work | Challenge                                  |
+|  4 |  5 min | 20 | TT   | @media in action                           |
+|  5 |  5 min | 20 | TT   | Bootstrap Break Points |
+|  6 |  5 min | 25 | TT   | Testing   |
+|  7 | 30 min | 50 | Work | Challenges 
 
-### 1 - @media
+### 1 - Design a repsonsive site with break points
 
-Use @media to define rules that apply only to specific media. 
+Responsive sites adjust to the device they are displayed on. 
+You will need to adjust the layout based on the available screen realestate.
+
+Desktop Layout
+![Desktop](Notes/desktop.png)
+
+Mobile Layout
+![Mobile](Notes/mobile.png)
 
 #### What is "media" 
 
@@ -38,6 +49,17 @@ These modifiers can be applied: and, only, max, min.
 You can put these together to create CSS rules that apply in a wide variety of situations. 
 Generally the most common use is creating rules that apply to mobile vs desktop. 
 These are usually written to target different screen sizes. 
+
+### 2 - Designing for multiple screen sizes
+
+As the screen narrows things need to change size. The layout of the page needs to 
+change when the screen gets smaller. 
+
+#### Sketch Artboards and Pages and Layout
+
+Artboards in Sketch...
+
+Pages in Sketch...
 
 #### Break points 
 
@@ -128,7 +150,6 @@ of your HTML document.
 
 ### In class challenges
 
-- [Challenge 1 - Sketch]()
 - [Challenge 4 - HTML](http://www.webdevils.com/make-school/front-end-web-class-9/challenges/Challenge-4.html)
 - [Challenge 5 - HTML](http://www.webdevils.com/make-school/front-end-web-class-9/challenges/Challenge-5.html)
 - [Challenge 6 - HTML](http://www.webdevils.com/make-school/front-end-web-class-9/challenges/Challenge-6.html)
