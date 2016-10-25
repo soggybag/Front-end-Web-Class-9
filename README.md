@@ -9,15 +9,15 @@
 
 |    | time   |    |      | Description                                |
 |----|--------|----|------|--------------------------------------------|
-|  1 |  5 min |  5 | TT   | Design a repsonsive site with break points |
+|  1 |  5 min |  5 | TT   | Design a repsonsive                        |
 |  2 |  5 min | 10 | TT   | Designing for multiple screen sizes Sketch |
-|  3 |  5 min | 15 | Work | Challenge                                  |
-|  4 |  5 min | 20 | TT   | @media in action                           |
-|  5 |  5 min | 20 | TT   | Bootstrap Break Points |
-|  6 |  5 min | 25 | TT   | Testing   |
-|  7 | 30 min | 50 | Work | Challenges 
+|  3 |  5 min | 15 | Work | Sketch Challenge                           |
+|  4 |  5 min | 20 | TT   | When should a layout change?               |
+|  5 |  5 min | 20 | TT   | Bootstrap Break Points                     |
+|  6 |  5 min | 25 | TT   | Testing                                    |
+|  7 | 30 min | 50 | Work | Challenges                                 |
 
-### 1 - Design a repsonsive site with break points
+### 1 - Design a repsonsive
 
 Responsive sites adjust to the device they are displayed on. 
 You will need to adjust the layout based on the available screen realestate.
@@ -27,6 +27,8 @@ Desktop Layout
 
 Mobile Layout
 ![Mobile](Notes/mobile.png)
+
+[Responsive Design](https://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly)
 
 #### What is "media" 
 
@@ -50,7 +52,7 @@ You can put these together to create CSS rules that apply in a wide variety of s
 Generally the most common use is creating rules that apply to mobile vs desktop. 
 These are usually written to target different screen sizes. 
 
-### 2 - Designing for multiple screen sizes
+### 2 - Designing for multiple screen sizes Sketch
 
 As the screen narrows things need to change size. The layout of the page needs to 
 change when the screen gets smaller. 
@@ -61,6 +63,59 @@ Artboards in Sketch...
 
 Pages in Sketch...
 
+### 3 - Sketch Challenge
+
+...
+
+### 4 - When should a layout change?
+
+Start designing your project as either mobile or desktop first. 
+After your site looks good on mobile or desktop add styles that fix the layout 
+for the other. 
+
+For example imagine you've designed your site for desktop, 
+finish this first __before__ adding styles for mobile. When you do add styles 
+for mobile your style sheet will only apply these styles when the screen is 
+sized for mobile, and these styles will add new styles and override the other 
+styles you have as needed. 
+
+#### @media
+
+The `@media` rule allows you to define a block of style rules that apply only 
+when your site is viewed on a certain media type/device with features that 
+you define. 
+
+Here is an example: 
+
+```
+@media screen {
+    body {
+        background-color: red;
+    }
+}
+```
+
+The block above says the background color of the body tag will be red when this page
+is viewed on a screen. In print or other media the background is not red. 
+
+```
+@media print {
+    body {
+        background-color: white;
+    }
+}
+```
+
+The code block above sets the background to white when the media is print. 
+
+### 5 - Bootstrap Break Points
+
+You can also define features that describe the media type in more detail. 
+It's common t use the size of the screen to determine when styles will applied
+to modify the layout of page to make it compatible with mobile or desktop. 
+
+The screen sizes you look for are called break points. 
+
 #### Break points 
 
 The term "break point" describes the width we can assume fits the screen 
@@ -69,6 +124,34 @@ For example, if a device has a maximum width of 320px then it must be one of the
 early iPhones or a very smaller computer.
 If the minimum width is 768px it's at least an iPad in portrait, though it could be 
 a larger screen. 
+
+#### Bootstrap CSS
+
+- [Desktop First](media-queries-desktop-first.css)
+- [Mobile First](media-queries-mobile-first.css)
+
+### 6 - Testing your responsive sites
+
+- Testing in Safari
+    - Using the Simulator
+    - Inspecting the Simulator
+- Tesing in Chrome
+- Firefox probably works the same...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### 3 - Responsive stratgeies 
 
