@@ -32,10 +32,6 @@ Mobile Layout
 
 [Responsive Design](https://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly)
 
-#### Try it with Sketch 
-
-[]
-
 #### What is "media" 
 
 Media can be just about anything. CSS defines the following media types: 
@@ -68,6 +64,19 @@ change when the screen gets smaller.
 Artboards in Sketch...
 
 Pages in Sketch...
+
+#### Mobile First vs Desktop First
+
+You might start by designing for mobile or designing for desktop. After desiging for one of these you
+will want to add styles that adjust the site to work on the other.
+
+#### Try it with Sketch 
+
+Sketch organizes work into Artboards and Pages. This example uses Pages to organize
+two different designs. 
+
+- [Challenge 1 - HTML](Challenges/Challenge-1.sketch)
+- [Challenge 2 - HTML](Challenges/Challenge-2.sketch)
 
 ### 3 - Sketch Challenge
 
@@ -144,22 +153,7 @@ a larger screen.
 - Tesing in Chrome
 - Firefox probably works the same...
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 3 - Responsive stratgeies 
+### Responsive stratgeies 
 
 In general terms you will want to design for one platform mobile or desktop. 
 Then use media queries to target rules for the other platform. 
@@ -187,16 +181,6 @@ Notice that following @media we have said that the media type is screen and
 features a maximum width of 414px. 
 
 The rules defined inside @media are only applied when the conditions are met.
-
-Here it is in picture form:
-
-__Desktop__
-
-![Desktop](Notes/desktop.png)
-
-__Mobile__
-
-![Mobile](Notes/mobile.png)
 
 #### Points vs Pixels 
 
