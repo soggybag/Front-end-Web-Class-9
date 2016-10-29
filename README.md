@@ -242,6 +242,7 @@ __Using Pages__
 
 ## Resources 
 
+- [Front End Web Playlist](https://goo.gl/z5fGaR) Watch videos 43 - 50
 - https://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly
 - http://1stwebdesigner.com/responsive-design-breakpoints/
 - https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
